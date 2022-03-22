@@ -1,6 +1,8 @@
 # du-ore-pure-gas-display
 LUA display for t1-t5 ores, minerals, and gasses as of patch Beta 1 r0.28.6 3/22/22
 
+![Image of Screen](https://github.com/[resource-industries]/[du-ore-pure-gas-display]/source/example.jpg?raw=true)
+
 **Instructions:**
   - Link Programming Board: Screen & Hub or Container (link order not important)
   - Copy contents of config.json and right click on programming board > Advanced > Paste Lua configuration from clipboard
