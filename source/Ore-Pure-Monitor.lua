@@ -116,7 +116,7 @@ local ores = {
   Vanadinite="iconsLib/materialslib/vanadiumore",
   Vanadium="iconsLib/materialslib/vanadium_ingot",
   Hydrogen="elementsLib/pures/pure-gazs/pure-gaz-hydrogen_001/icons/env_pure-gaz-hydrogen_001_icon",
-  Oxygen="elementsLib/pures/pure-gazs/pure-gaz-hydrogen_001/icons/env_pure-gaz-oxygen_001_icon"
+  Oxygen="elementsLib/pures/pure-gazs/pure-gaz-oxygen_001/icons/env_pure-gaz-oxygen_001_icon"
 }
 
 local config = {}
