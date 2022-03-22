@@ -1,7 +1,7 @@
 unit.hide()
 
 Material = "Bauxite" --export: (Default: Coal) Ore Name
-Volume_Available_L = "192000" --export: (Default: 192000) Available Volume in Hub or Container
+Volume_Available_KL = "1920" --export: (Default: 192000) Available Volume (KL) in Hub or Container
 
 template = [[
 <style type="text/css">
@@ -156,14 +156,14 @@ function render()
       return
   end
   local volume = math.floor(currentVolume / 1000)
-  local percent = math.floor(currentVolume / Volume_Available_L)*100
+  local percent = volume / Volume_Available_KL * 100
   
-  system.print("Volume: " ..volume.. " (Current Volume / 1000)")
-  system.print("Percent: " ..percent.. " (Current Volume / Volume Available L)")
+  system.print("Volume: " ..volume.. " (volume)")
+  system.print("Percent: " ..percent.. " (Volume / Volume Available KL * 100)")
   local color
-  if percent > 50 then
+  if percent > 75 then
       color = "00aa00"
-  elseif percent > 20 then
+  elseif percent > 50 then
       color = "aaaa00"
   else
       color = "aa0000"
