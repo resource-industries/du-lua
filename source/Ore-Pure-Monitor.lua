@@ -1,7 +1,7 @@
 unit.hide()
 
 Material = "Bauxite" --export: (Default: Coal) Ore Name
-Volume_Available_KL = "1920" --export: (Default: 192000) Available Volume (KL) in Hub or Container
+Volume_Available_KL = "1920" --export: (Default: 1920) Available Volume (KL) in Hub or Container
 
 template = [[
 <style type="text/css">
