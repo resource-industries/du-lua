@@ -1,6 +1,6 @@
 unit.hide()
 
-Material = "Bauxite" --export: (Default: Coal) Ore Name
+Material = "Oxygen" --export: (Default: Coal) Ore Name
 Volume_Available_L = "192000" --export: (Default: 192000) Available Volume in Hub or Container
 
 template = [[
@@ -116,7 +116,7 @@ local ores = {
   Vanadinite="iconsLib/materialslib/vanadium_ore",
   Vanadium="iconsLib/materialslib/vanadium_ingot",
   Hydrogen="elementsLib/pures/pure-gazs/pure-gaz-hydrogen_001/icons/env_pure-gaz-hydrogen_001_icon",
-  Oxygen="elementsLib/pures/pure-gazs/pure-gaz-hydrogen_001/icons/env_pure-gaz-oxygen_001_icon"
+  Oxygen="elementsLib/pures/pure-gazs/pure-gaz-oxygen_001/icons/env_pure-gaz-oxygen_001_icon"
 }
 
 local config = {}
