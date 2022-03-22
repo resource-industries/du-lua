@@ -1,6 +1,6 @@
 unit.hide()
 
-Material = "Oxygen" --export: (Default: Coal) Ore Name
+Material = "Bauxite" --export: (Default: Coal) Ore Name
 Volume_Available_L = "192000" --export: (Default: 192000) Available Volume in Hub or Container
 
 template = [[
@@ -81,42 +81,42 @@ local ores = {
   Iron="iconsLib/materialslib/iron_ingot",
   Quartz="iconsLib/materialslib/silicon_ore",
   Silicon="iconsLib/materialslib/silicon_ingot",
-  Chromite="iconsLib/materialslib/chromium_ore",
+  Chromite="iconsLib/materialslib/chromiumore",
   Chromium="iconsLib/materialslib/chromium_ingot",
-  Limestone="iconsLib/materialslib/calcium_ore",
+  Limestone="iconsLib/materialslib/calciumore",
   Calcium="iconsLib/materialslib/calcium_ingot",
   Malachite="iconsLib/materialslib/copper_ore",
   Copper="iconsLib/materialslib/copper_ingot",
-  Natron="iconsLib/materialslib/sodium_ore",
+  Natron="iconsLib/materialslib/sodiumore",
   Sodium="iconsLib/materialslib/sodium_ingot",
-  Acanthite="iconsLib/materialslib/silver_ore",
+  Acanthite="iconsLib/materialslib/silverore",
   Silver="iconsLib/materialslib/silver_ingot",
-  Garnierite="iconsLib/materialslib/nickel_ore",
+  Garnierite="iconsLib/materialslib/nickelore",
   Nickel="iconsLib/materialslib/nickel_ingot";
-  Petalite="iconsLib/materialslib/lithium_ore",
+  Petalite="iconsLib/materialslib/lithiumore",
   Lithium="iconsLib/materialslib/lithium_ingot",
-  Pyrite="iconsLib/materialslib/sulfur_ore",
+  Pyrite="iconsLib/materialslib/sulfurore",
   Sulfur="iconsLib/materialslib/sulfur_ingot",
-  Cobaltite="iconsLib/materialslib/cobalt_ore",
+  Cobaltite="iconsLib/materialslib/cobaltore",
   Cobalt="iconsLib/materialslib/cobalt_ingot",
-  Cryolite="iconsLib/materialslib/fluorine_ore",
+  Cryolite="iconsLib/materialslib/fluorineore",
   Fluorine="iconsLib/materialslib/fluorine_ingot",
   GoldNuggets="iconsLib/materialslib/gold_ore",
   Gold="iconsLib/materialslib/gold_ingot",
   Kolbeckite="iconsLib/materialslib/scandium_ore",
   Scandium="iconsLib/materialslib/scandium_ingot",
-  Columbite="iconsLib/materialslib/niobium_ore",
+  Columbite="iconsLib/materialslib/niobiumore",
   Niobium="iconsLib/materialslib/niobioum_ingot",
-  Ilmenite="iconsLib/materialslib/titanium_ore",
+  Ilmenite="iconsLib/materialslib/titaniumore",
   Titanium="iconsLib/materialslib/titanium_ingot",
   Rhodonite="iconsLib/materialslib/manganese_ore",
   Manganese="iconsLib/materialslib/manganese_ingot",
   Thoramine="iconsLib/materialslib/env_thoramine-ore_001_icon",
   Trithorium="iconsLib/materialslib/trithorium_pure",
-  Vanadinite="iconsLib/materialslib/vanadium_ore",
+  Vanadinite="iconsLib/materialslib/vanadiumore",
   Vanadium="iconsLib/materialslib/vanadium_ingot",
   Hydrogen="elementsLib/pures/pure-gazs/pure-gaz-hydrogen_001/icons/env_pure-gaz-hydrogen_001_icon",
-  Oxygen="elementsLib/pures/pure-gazs/pure-gaz-oxygen_001/icons/env_pure-gaz-oxygen_001_icon"
+  Oxygen="elementsLib/pures/pure-gazs/pure-gaz-hydrogen_001/icons/env_pure-gaz-oxygen_001_icon"
 }
 
 local config = {}
